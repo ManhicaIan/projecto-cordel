@@ -23,6 +23,7 @@ header{
 header h1{
   font-family: var(--fonte2);
   font-size: 9vw;
+  font-variant: small-caps;
 }
 
 header p{
