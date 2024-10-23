@@ -17,16 +17,17 @@ header{
   padding: 50px;
   color: white;
   background-color: black;
+  margin-bottom: 50px;
 }
 
 header h1{
   font-family: var(--fonte2);
-  font-weight: bold;
-  font-size: 5em;
+  font-size: 9vw;
 }
 
 header p{
   font-family: var(--fonte2);
+  font-size: 1.5em;
 }
 header a{
   text-decoration: none;
@@ -34,11 +35,44 @@ header a{
   color: white;
 }
 
-main article pre{
-  psi
-  font-family: var(--fonte3);
-  font-size: 3em;
+header a:hover{
+  text-decoration: underline;
 }
+
+main article pre{
+  margin-left: 30px;
+  text-align: justify;
+  font-family: var(--fonte3);
+  font-size: 4vw;
+  margin-bottom: 50px;
+}
+
+#img1{
+  background: purple url(/imagens/background001.jpg) center right  no-repeat  fixed;
+  background-size: cover;
+}
+
+#img2{
+  background: purple url(/imagens/background002.jpg) center right  no-repeat  fixed;
+  background-size: cover;
+}
+
 .imagem{
-  position: relative;
+  margin-bottom: 50px;
+}
+.imagem > pre{
+  display: inline-block;
+  margin: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.493);
+  text-shadow: 1px 1px 10px black;
+}
+
+footer{
+  font-family: var(--fonte1);
+  padding: 10px;
+  background-color: black;
+  color: white;
+
+  text-align: center;
 }
